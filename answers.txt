@@ -3,4 +3,14 @@ What does fast-forward in Git mean?
 Why should you have different branches?
 In a project how many remote Git repositories do you usually have?
 
+1. Gitignore file provides a way to ignore unwanted files and extensions from being tracked by the git repository. In a java project, .project, .class and target folders must be ignored as they are not source code and should be generated locally.
+
+
+2. Fast-forward in Git means that the git was able to merge two different files automatically without any merge conflict.
+
+
+3. Different branches allows development teams to develop different features simultaneously. Every feature must have a different branch for it. This makes sure the head of master branch is not updated too often, but rather only updated when a ready to be tested feature is merged into it.
+
+
+4. In a project  we can have multiple remote git repositories but it starts with "Origin". 
 
